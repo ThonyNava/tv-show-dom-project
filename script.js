@@ -9,7 +9,7 @@ let gettingValue = () => {
 };
 
 button.addEventListener("click", function () {
-  let api = "http://api.tvmaze.com/search/shows?q=";
+  let api = "https://api.tvmaze.com/search/shows?q=";
   let url = api + query;
   console.log(url);
   fetch(url)
